@@ -1,0 +1,21 @@
+{
+    "name": "luizdsousa/php-jeitocerto",
+    "description": "PHP do Jeito Certo",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Luiz Antonio A. de Sousa",
+            "email": "luizdsousa@gmail.com",
+            "homepage": "https://teste.com.br",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-lib": "vendor"
+    },
+    "autoload": {
+        "psr-4":{
+            "Source\\": "source/"
+        }
+    }
+}
