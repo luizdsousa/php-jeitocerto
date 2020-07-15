@@ -19,6 +19,11 @@ echo "<pre>", var_dump(
 
 echo "<h2>#AUTOLOAD COMPOSER PSR-4</h2>";
 
+require __DIR__ . "/vendor/autoload.php";
+
+$email = new \PHPMailer\PHPMailer\PHPMailer();
+echo "<pre>", var_dump($email), "</pre>";
+
 
 
 ?> 
