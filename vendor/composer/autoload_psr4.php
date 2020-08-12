@@ -8,4 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Source\\' => array($baseDir . '/source'),
     'PHPMailer\\PHPMailer\\' => array($vendorDir . '/phpmailer/phpmailer/src'),
+    'Faker\\' => array($vendorDir . '/fzaninotto/faker/src/Faker'),
+    'CoffeeCode\\DataLayer\\' => array($vendorDir . '/coffeecode/datalayer/src'),
 );

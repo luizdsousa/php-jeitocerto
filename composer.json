@@ -2,6 +2,7 @@
     "name": "luizdsousa/php-jeitocerto",
     "description": "PHP do Jeito Certo",
     "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
             "name": "Luiz Antonio A. de Sousa",
@@ -16,9 +17,15 @@
     "autoload": {
         "psr-4":{
             "Source\\": "source/"
-        }
+        },
+        "files": [
+            "source/Config.php"
+        ]
     },
     "require":{
-        "phpmailer/phpmailer": "~6.1"
+        "ext-pdo":"*",
+        "phpmailer/phpmailer": "~6.1",
+        "coffeecode/datalayer": "1.1.*",
+        "fzaninotto/faker": "1.8.*"
     }
 }

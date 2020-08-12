@@ -6,6 +6,10 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitc680a7bd2cc98798e14b4ba754b0ada1
 {
+    public static $files = array (
+        'fe6a864ec8f110517e25ee1cf58ee1ee' => __DIR__ . '/../..' . '/source/Config.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
@@ -14,6 +18,14 @@ class ComposerStaticInitc680a7bd2cc98798e14b4ba754b0ada1
         'P' => 
         array (
             'PHPMailer\\PHPMailer\\' => 20,
+        ),
+        'F' => 
+        array (
+            'Faker\\' => 6,
+        ),
+        'C' => 
+        array (
+            'CoffeeCode\\DataLayer\\' => 21,
         ),
     );
 
@@ -25,6 +37,14 @@ class ComposerStaticInitc680a7bd2cc98798e14b4ba754b0ada1
         'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
+        ),
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+        'CoffeeCode\\DataLayer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/datalayer/src',
         ),
     );
 
